@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border-Radius</title>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			margin: 30px auto;
+			background-color: orange;
+			border-radius: 20px; /* atas kiri, atas kanan, bawah kanan,bawah kiri */
+			text-align: center;
+			line-height: 200px;
+			background-image: url(../camp-nou.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			overflow: hidden;
+		}
+		div img{
+			width: 100px;
+		}
+		.setengah{
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+			border-radius: 50% 50% 0 0;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<img src="../camp-nou.png">
+	</div>
+	<br><br><br><br>
+	<div class="setengah"></div>
+</body>
+</html>

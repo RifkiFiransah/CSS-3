@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Filter</title>
+	<style type="text/css">
+		/* filter= blur(px), brightness, contrast, saturate, grayscale(0), sepia(0), hue-rotate(deg), invert, opacity, drop-shadow(seperti box shadow). */
+		body{
+			text-align: center;
+		}
+		img{
+			filter: grayscale(50%) blur(1px);
+			transition: 1s;
+		}
+		img:hover{
+			filter: grayscale(0) blur(0);
+		}
+	</style>
+</head>
+<body>
+	<img src="../camp-nou.png" alt="">
+</body>
+</html>
